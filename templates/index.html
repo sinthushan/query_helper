@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Query</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            {% for screen in screens %}
+                <li><a href="{{ screen.href }}">{{ screen.screen_name }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</body>
+</html>

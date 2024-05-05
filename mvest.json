@@ -1,0 +1,42 @@
+{
+    "screens": 
+    [
+        {
+            "screen_name": "Fee Adjustment",
+            "fields": [
+                {
+                    "field_name": "Fee Group",
+                    "field_type": "Input",
+                    "db_column": "fee_grp"
+                },
+                {
+                    "field_name": "Portfolio Code",
+                    "field_type": "Input",
+                    "db_column": "port"
+                }
+                
+            ],
+            "db_table": "fee_adj"
+            
+        },
+        {
+            "screen_name": "Fee Adjustment",
+            "fields": [
+                {
+                    "field_name": "Fee Group",
+                    "field_type": "Input",
+                    "db_column": "fee_grp"
+                },
+                {
+                    "field_name": "Portfolio Code",
+                    "field_type": "Input",
+                    "db_column": "port"
+                }
+                
+            ],
+            "db_table": "fee_adj"
+            
+        }
+
+    ]
+}

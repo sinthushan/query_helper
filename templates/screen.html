@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Query</title>
+</head>
+<body>
+
+    {% for field in screen.fields %}
+        <div>
+            <label for="{{field.db_column}}"> {{field.field_name}}</label>
+            <input type="text" name="{{field.db_column}}" id="{{field.db_column}}">
+        </div>
+    {% endfor %}
+
+</body>
+</html>
